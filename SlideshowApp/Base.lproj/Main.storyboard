@@ -106,7 +106,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SsQ-Fo-VAH">
-                                <rect key="frame" x="180" y="742" width="54" height="36"/>
+                                <rect key="frame" x="40" y="742" width="334" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="戻る">
                                     <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -121,14 +121,14 @@
                         </subviews>
                         <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="CRU-jJ-303" firstAttribute="trailing" secondItem="SsQ-Fo-VAH" secondAttribute="trailing" constant="180" id="0m9-Qn-KxZ"/>
                             <constraint firstItem="deN-5P-uBV" firstAttribute="leading" secondItem="CRU-jJ-303" secondAttribute="leading" constant="20" id="Iyq-94-Mpe"/>
+                            <constraint firstItem="CRU-jJ-303" firstAttribute="trailing" secondItem="SsQ-Fo-VAH" secondAttribute="trailing" constant="40" id="RhW-sa-xo3"/>
                             <constraint firstItem="CRU-jJ-303" firstAttribute="bottom" secondItem="SsQ-Fo-VAH" secondAttribute="bottom" constant="30" id="fXl-CL-fe3"/>
                             <constraint firstItem="CRU-jJ-303" firstAttribute="trailing" secondItem="deN-5P-uBV" secondAttribute="trailing" constant="20" id="iPs-M5-nWG"/>
                             <constraint firstItem="deN-5P-uBV" firstAttribute="centerX" secondItem="eeX-JF-wAg" secondAttribute="centerX" id="mIz-o8-kao"/>
-                            <constraint firstItem="SsQ-Fo-VAH" firstAttribute="leading" secondItem="CRU-jJ-303" secondAttribute="leading" constant="180" id="mO7-mO-Puo"/>
                             <constraint firstItem="deN-5P-uBV" firstAttribute="top" secondItem="CRU-jJ-303" secondAttribute="top" constant="20" id="pz5-MM-KLI"/>
                             <constraint firstItem="SsQ-Fo-VAH" firstAttribute="top" secondItem="deN-5P-uBV" secondAttribute="bottom" constant="20" id="rVr-eT-MN0"/>
+                            <constraint firstItem="SsQ-Fo-VAH" firstAttribute="leading" secondItem="CRU-jJ-303" secondAttribute="leading" constant="40" id="vAH-VX-4ob"/>
                             <constraint firstItem="SsQ-Fo-VAH" firstAttribute="centerX" secondItem="eeX-JF-wAg" secondAttribute="centerX" id="xMp-uM-35n"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="CRU-jJ-303"/>
